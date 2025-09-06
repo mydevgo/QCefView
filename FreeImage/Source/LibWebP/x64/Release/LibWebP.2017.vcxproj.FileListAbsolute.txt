@@ -1,0 +1,1 @@
+E:\project\3rdparty\src\FreeImage\Source\LibWebP\x64\Release\LibWebP.lib
