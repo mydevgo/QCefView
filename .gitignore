@@ -1,4 +1,5 @@
 .vs
+CMakeBuild
 
 # Prerequisites
 *.d
