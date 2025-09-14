@@ -1,3 +1,15 @@
 [submodule "cpr"]
 	path = cpr
 	url = git@github.com:libcpr/cpr.git
+[submodule "zxing-cpp"]
+	path = zxing-cpp
+	url = git@github.com:zxing-cpp/zxing-cpp.git
+[submodule "opencv"]
+	path = opencv
+	url = git@github.com:opencv/opencv.git
+[submodule "spdlog"]
+	path = spdlog
+	url = git@github.com:gabime/spdlog.git
+[submodule "json"]
+	path = json
+	url = git@github.com:nlohmann/json.git
