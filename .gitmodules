@@ -13,3 +13,9 @@
 [submodule "json"]
 	path = json
 	url = git@github.com:nlohmann/json.git
+[submodule "libtiff"]
+	path = libtiff
+	url = https://gitlab.com/libtiff/libtiff.git
+[submodule "simpleini"]
+	path = simpleini
+	url = https://github.com/brofield/simpleini.git
