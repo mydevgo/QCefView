@@ -19,3 +19,6 @@
 [submodule "simpleini"]
 	path = simpleini
 	url = https://github.com/brofield/simpleini.git
+[submodule "mupdf"]
+	path = mupdf
+	url = git@github.com:ArtifexSoftware/mupdf.git
