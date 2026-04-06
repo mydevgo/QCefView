@@ -1,5 +1,8 @@
 .vs
 CMakeBuild
+*.build
+*.install
+*.release
 
 # Prerequisites
 *.d
