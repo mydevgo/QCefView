@@ -25,3 +25,6 @@
 [submodule "googletest"]
 	path = googletest
 	url = https://github.com/google/googletest.git
+[submodule "QCefView"]
+	path = QCefView
+	url = https://github.com/CefView/QCefView.git
