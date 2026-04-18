@@ -1,0 +1,40 @@
+From 3b109efcf4630775380becc5193812fd2a6f4db3 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?=E9=BB=84=E5=87=AF?= <huangkai@hosonsoft.com>
+Date: Tue, 14 Apr 2026 17:09:31 +0800
+Subject: [PATCH 2/3] =?UTF-8?q?revert:=20=E5=9B=9E=E9=80=80=20CEF=20?=
+ =?UTF-8?q?=E7=89=88=E6=9C=AC=E8=87=B3=E7=A8=B3=E5=AE=9A=E7=89=88=E6=9C=AC?=
+ =?UTF-8?q?=20127.3.5=20=E4=BB=A5=E6=94=AF=E6=8C=81=E4=B8=93=E6=9C=89?=
+ =?UTF-8?q?=E7=BC=96=E8=A7=A3=E7=A0=81=E5=99=A8=E6=9B=BF=E6=8D=A2?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ thirdparty/CMakeLists.txt | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/thirdparty/CMakeLists.txt b/thirdparty/CMakeLists.txt
+index 7fc347d..14e73a8 100644
+--- a/thirdparty/CMakeLists.txt
++++ b/thirdparty/CMakeLists.txt
+@@ -61,7 +61,7 @@ FetchContent_Declare(
+ # set(CEF_SDK_VERSION "124.3.9+g9bd638f+chromium-124.0.6367.207")
+ # set(CEF_SDK_VERSION "125.0.22+gc410c95+chromium-125.0.6422.142")
+ # set(CEF_SDK_VERSION "126.2.18+g3647d39+chromium-126.0.6478.183")
+-# set(CEF_SDK_VERSION "127.3.5+g114ea2a+chromium-127.0.6533.120")
++set(CEF_SDK_VERSION "127.3.5+g114ea2a+chromium-127.0.6533.120") # GOOD
+ # set(CEF_SDK_VERSION "128.4.9+g9840ad9+chromium-128.0.6613.120")   # BAD:debugbreak - debug mode
+ # set(CEF_SDK_VERSION "129.0.12+gf09539f+chromium-129.0.6668.101")
+ # set(CEF_SDK_VERSION "130.1.16+g5a7e5ed+chromium-130.0.6723.117")
+@@ -77,7 +77,7 @@ FetchContent_Declare(
+ # set(CEF_SDK_VERSION "139.0.40+g465474a+chromium-139.0.7258.139")
+ # set(CEF_SDK_VERSION "140.1.20+g49f5d09+chromium-140.0.7339.214")
+ # set(CEF_SDK_VERSION "141.0.11+g7e73ac4+chromium-141.0.7390.123")
+-set(CEF_SDK_VERSION "142.0.15+g6dfdb28+chromium-142.0.7444.176")
++# set(CEF_SDK_VERSION "142.0.15+g6dfdb28+chromium-142.0.7444.176")
+ 
+ # populate CefViewCore project
+ FetchContent_MakeAvailable(CefViewCore)
+-- 
+2.22.0.windows.1
+
