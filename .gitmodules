@@ -27,4 +27,4 @@
 	url = https://github.com/google/googletest.git
 [submodule "QCefView"]
 	path = QCefView
-	url = https://github.com/CefView/QCefView.git
+	url = git@github.com:sxhuangkai/QCefView.git
