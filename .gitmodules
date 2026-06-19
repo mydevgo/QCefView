@@ -28,3 +28,6 @@
 [submodule "QCefView"]
 	path = QCefView
 	url = git@github.com:sxhuangkai/QCefView.git
+[submodule "sentry-native"]
+	path = sentry-native
+	url = https://github.com/getsentry/sentry-native.git
